@@ -1,0 +1,14 @@
+public class hw03 {
+    public static void main(String[] args) {
+        int[] array = { 10, 20, 30 };
+        int sum = 0;
+
+        for(int i=0; i<3; i++) {
+            sum += array[i];
+        }
+        System.out.println("총합은: " + sum);
+        double avg = (double) sum/array.length;
+        System.out.println("평균은: " + avg);
+
+    }
+}
