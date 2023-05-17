@@ -1,0 +1,11 @@
+public class ajng {
+    public static void main(String[] args) {
+        String fullinfo = "김연습 남자";
+
+
+        String name = fullinfo.substring(0, 3);
+        String morw = fullinfo.substring(4);
+        System.out.println("이름은: " + name);
+        System.out.println("성별은: " + morw);
+    }
+}
