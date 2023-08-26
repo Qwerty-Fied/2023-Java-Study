@@ -1,0 +1,28 @@
+package quiz.imade;
+
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileWriter;
+
+public class Temp {
+    public static void main(String[] args) {
+        try {
+//            각각 디렉토리, 파일이 없으면 만들어주는 문장을 작성해주세요
+
+            ??? writer = new ???(new ???("C:/Temp/Text.txt"));
+            char[] apple = { 'a', 'p', 'p', 'l', 'e'};
+            char[] banana = { 'b', 'a', 'n', 'a', 'n', 'a' };
+            char[] peach = { 'p', 'e', 'a', 'c', 'h' };
+            writer.write(apple);
+            writer.newLine();
+            writer.write(banana);
+            writer.newLine();
+            writer.write(peach);
+
+            writer.flush();
+            writer.close();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+}
